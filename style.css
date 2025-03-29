@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy, sans-serif;
+}
+
+h1 {
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+h2 {
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+
+}
+
+h3 {
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #0071E3;
+    padding-bottom: 48px;
+}
+
+h4 {
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 54px;
+    
+}
+.container1{
+    width: 1200px;
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+    padding-top: 54px;
+}
+
+.text_left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text_right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+}
+
+.btn {
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #0071E3;
+    width: 155px;
+    height: 42px;
+    color: #FFFFFF;
+
+
+}
+
+.btn1 {
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 155px;
+    height: 42px;
+    background: #CFE7FF;
+    color: #797979;
+}
